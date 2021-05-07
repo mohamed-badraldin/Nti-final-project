@@ -1,0 +1,1108 @@
+
+html, body{
+    font-size: .5vw;
+}
+
+
+body {
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+
+}
+/* start edit on bootstrap  */
+.home-home {
+    text-decoration: none;
+    display: inline-block;
+    color: #7c7c7d;
+    padding-top: 4px;
+}
+.home-home:hover {
+    color: white;
+}
+.my-nav, .dropdown-item{
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff784b;
+    transition: all 0.3s ease;
+}
+.navbar-toggler {
+    font-size: 7rem;
+    margin-right: 3rem;
+    padding: 0.5rem 1.5rem;
+}
+.navbar-toggler-icon{
+    width: 1.2em;
+    height: 1.2em;
+}
+.navbar li {
+    margin-right: 2.5rem;
+}
+.brand-image {
+    width: 190px;
+    height: 70px;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navtop {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99;
+}
+#carouselExampleIndicators{
+    max-height: 620px;
+    
+}
+#carouselExampleIndicators img{
+    max-height: 620px;
+    object-fit: cover;
+}
+.carousel-indicators{
+    height: 80px;
+    display: block;
+    left: 81%;
+    top: 25%;
+}
+.carousel-indicators li {
+    display: block;
+    width: .7rem;
+    height: 10rem;
+}
+.carousel-inner h5 {
+    font-size: 9rem;
+    font-weight: bold;
+    word-spacing: 1.5rem;
+    padding-top: 27rem;
+}
+.carousel-inner p{
+    font-size: 3rem;
+    width: 100rem;
+    padding: 3rem;
+    margin: auto;
+}
+/* end edit on bootstrap  */
+
+.color-box {
+    position: fixed;
+    top:200px;
+    left:0;
+    z-index: 1000;
+}
+.colors, .gear {
+    float:left
+}
+.gear span {
+    display: block;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: inset 0 0 15px gray;
+}
+.gear-icon{
+    cursor:pointer
+}
+.colors li {
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 5px 0px;
+    cursor:pointer;
+    display: inline-block;
+}
+.colors {
+    padding: 15px;
+    background-color: white;
+    box-shadow: inset 0 0 15px rgba(128, 128, 128, 0.678);
+    display: none;
+}
+.top-bar  {
+    color: white;
+    font-size: 1.8rem;
+    padding: 15px 0;
+    text-align: center;
+}
+.top-bar .row div:nth-child(2),
+.top-bar .row div:last-of-type
+{
+    border-left: 1px solid white
+}
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 .6rem;
+}
+.layout {
+    background-color: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.headline{
+    width: 100%;
+    height: 35rem;
+}
+.headline > div {
+    padding: 11.5rem;
+    display: flex;
+    justify-content: center;
+}
+.headline h2 {
+    font-size: 45px;
+    padding: 0px 25px;
+}
+.headline p { 
+    font-size: 20px;
+    padding-top: 2rem;
+    color: gray;
+    padding-bottom: 50px;
+}
+.headline span {
+    display: block;
+    margin: 20px 0 -15px;
+    width: 90px;
+    height: 2px;
+}
+.headline span:first-of-type{
+    width: 45px;
+    margin-top: 25px
+}
+#s1 {
+    margin-left: 45px;
+}
+.aboutus{
+    position: relative;
+}
+.aboutus .paragragh  {
+    padding-top: 15px;
+    font-size: 15.5px;
+    color: gray;
+}
+.aboutus button {
+    width: 135px;
+    height: 38px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.list{
+    background-color: white;
+    box-shadow: 0 0 50px #80808085;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 15rem;
+    z-index: 2;
+}
+.imgX {
+    display:block;
+    margin: auto;
+}
+.con-med {
+    padding: 20px;
+}
+.med {
+    margin-bottom: 20px;
+}
+.med span {
+    display: block;
+    font-size: 27px;
+    padding: 18px 12px 18px 0;
+    border-right: 1px solid gray;
+}
+#like {
+    padding-right: 16px;
+}
+.med h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.med p {
+    font-size: 15px;
+    padding-left: 12px;
+    color: gray;
+}
+.numbers {
+    margin-top: 100px;
+    padding: 50px 0 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 26px #8888883b;
+}
+.numbers .n-m{
+    margin-bottom: 30px;
+}
+.num {
+    margin:10px 25%;
+}
+.num span  {
+    font-size: 45px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(192, 192, 192, 0.445);
+    line-height: 20px;
+    border-radius: 7px;
+    margin-right: 25px;
+}
+.num a{
+    text-decoration: none;
+}
+#i {
+    padding: 15px 15px 7px 15px;
+}
+#i1 {
+    padding: 13px 16px 8px 16px;
+}
+#i2 {
+    padding: 15px 20px 9px 20px;
+}
+#i3 {
+    padding: 15px 24px 11px 24px;
+}
+.num h4 {
+    font-size: 35px;
+}
+.num p {
+    font-size: 15px;
+    color:gray
+}
+.services {
+    background-image: url(../images/b7.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.services .window {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 0 auto 35px;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.window span {
+    font-size: 45px;
+}
+.window h2{
+    font-size: 28px;
+}
+.win-slid {
+    padding: 30px;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+
+}
+.win-slid h2 {
+    font-size: 30px;
+    color: black;
+}
+.win-slid p{
+    font-size: 15px;
+    padding: 10px 0;
+    color: gray
+}
+.win-slid button {
+    width: 135px;
+    height: 38px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+}
+.window:hover .win-slid  {
+    position: absolute;
+    top:0px;
+    left:0px;
+    transition: all .15s ease;
+}
+.services h3 {
+    color: white;
+    font-size: 50px;
+    padding: 0 15px;
+}
+.top-line {
+    width: 100%;
+}
+.top-line > div {
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+.top-line > div > div {
+    display: inline-block;
+}
+.top-line h3 {
+    padding: 0 3rem;
+}
+.top-line span {
+    width: 15rem;
+    height: 2px;
+    margin: 1rem;
+    display: block;
+}
+.top-line span:first-of-type {
+    width: 7.5rem;
+}
+#left {
+    margin-left: 50%;
+}
+.services .top-paragragh {
+    font-size: 13px;
+    color:white;
+    width: 70%;
+    text-align: center;
+    margin: 1rem auto 8rem;
+}
+.our-work {
+    padding-top: 13rem;
+}
+.our-work h3 {
+    font-size: 45px;
+}
+.our-work .top-paragragh {
+    font-size: 15px;
+    color:gray;
+    text-align: center;
+    width: 70%;
+    margin: 3rem auto;
+}
+.menu-links {
+    font-size: 15px;
+    text-align: center;
+    margin: 10rem auto;
+}
+.menu-links a {
+    display: inline-block;
+    padding: 0 5rem;
+    text-decoration: none;
+    color: black;
+}
+.menu-links a:hover {
+    transition: all .3s ease-in-out;
+}
+
+.gallery div {
+    margin-bottom: 25px;
+}
+.view {
+    position: relative;
+}
+.view img {
+    display: block;
+    margin: auto;
+}
+.view:hover img {
+    box-shadow: 0 0 20px rgb(148, 148, 148);
+    transition: all .3s ease-in-out;
+}
+.view img {
+    border-radius: 5px;
+    width: 100%;
+}
+.view-mov {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    padding: 4% 0 4% 7%;
+    font-size: 13px;
+    color: white;
+    transform: rotatey(90deg);
+}
+.view-mov a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 45%;
+}
+.view-mov .plus {
+    margin:0;
+}
+.view:hover .view-mov {
+    transform: rotatey(0deg);
+    transition: all 0.3s linear;
+}
+.Creative h3 {
+    font-size: 45px;
+}
+.Creative p {
+    font-size: 15px;
+    color:gray;
+    text-align: center;
+    width: 70%;
+    margin: 3rem auto 12rem;
+}
+.Creative {
+    padding-top: 12rem;
+}
+.Creative .team {
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.team img {
+    display: block;
+    margin: auto;
+}
+.team h4 {
+    font-size: 20px;
+}
+.team span {
+    font-size: 15px;
+}
+.team p {
+    font-size: 12.5px;
+    margin: 5px auto;
+    width: 100%;
+}
+.team hr {
+    background-color: rgb(53, 53, 53);
+    height: 2px;
+    margin-bottom: 0;
+}
+.team .card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.61);
+    border:0;
+    width: 90%;
+    padding: 15px 30px 50px 30px;
+    color:black;
+    position: absolute;
+    top: 80%;
+    left:5%;
+}
+.team .card-icons {
+    position:absolute;
+    top:118.5%;
+    left: 12.5%;
+    z-index: 2;
+    width: 75%;
+    padding: 7px;
+    border-radius: 5px 5px 0 0;
+}
+.team .card-icons a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 12px;
+}
+.team:hover hr {
+    visibility: hidden;
+}
+.team:hover .card {
+    top:52%;
+    transition: all 0.2s ease;
+}
+.team:hover .card-icons {
+    top: 90%;
+    transition: all 0.3s ease;
+}
+
+.card-icons a:hover {
+    color: black;
+} 
+.our-pricing {
+    margin-top: 9rem;
+}
+.our-pricing h3 {
+    font-size: 45px;
+}
+.our-pricing p{
+    font-size: 15px;
+    color: gray;
+    width: 70%;
+    text-align: center;
+    margin: 5rem auto 18rem;
+}
+
+.price .row div {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 50px;
+}
+.price h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.price h2 span {
+    padding-right: 8px;
+    font-size: 17px;
+}
+.price p {
+    margin: 10px auto 0;
+    font-size: 15px;
+    width: 100%;
+}
+.price button {
+    display: block;
+    width: 210px;
+    padding: 15px;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: auto;
+}
+.price hr {
+    margin: 25px auto;
+}
+#pr-h {
+    font-size: 35px;
+}
+#pr-hr {
+    height: 1px;
+    width: 70px;
+}
+#pr-s {
+    font-size: 18px;
+}
+.price .row div:nth-of-type(2) {
+    box-shadow: 0 0 30px rgb(192, 192, 192);
+}
+.price .row div:nth-of-type(2) button {
+    background-color: white;
+}
+.Subscribe {
+    background-color: black;
+    margin: 12rem 0;
+    text-align: center;
+    color:white;
+    padding: 10rem 0;
+}
+.Subscribe span {
+    font-size: 6rem;
+    margin-left: 10px;
+}
+.Subscribe input {
+    width: 70%;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Subscribe button {
+    width: 135px;
+    height: 38px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.Testimonial h3 {
+    font-size: 50px;
+}
+#carouselExampleControls {
+    margin-top: 8rem;
+    margin-bottom: 120px;
+    position: relative;
+}
+.Control-med {
+    border: 1px solid rgb(184, 184, 184);
+    box-shadow: 0 0 20px rgba(177, 177, 177, 0.74);
+    padding: 25px 30px 25px 0;
+    margin-top: 20px;
+}
+.Control-med a {
+    padding: 15px;
+}
+.Control-med h4 {
+    font-size: 20px;
+}
+.Control-med span {
+    font-size: 15px;
+}
+.Control-med p {
+    font-size: 13px;
+    width: 90%;
+    margin:0;
+    padding: 5px 0 0 0;
+}
+.carousel-control-prev-icon {
+    position:absolute; 
+    top: 110%;
+    left: 270%;
+    width: 60px;
+    height: 15px;
+    border-radius: 18px;
+}
+.carousel-control-next-icon {
+    position:absolute; 
+    top: 110%;
+    left: -200%;
+    width: 60px;
+    height: 15px;
+    border-radius: 18px
+}
+.latest-blog{
+    position: relative;
+}
+.latest-blog h3 {
+    font-size: 40px
+}
+.latest-blog p {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 20% 90px;
+}
+.b-con {
+    margin-bottom: 20px;
+}
+
+.blog {
+    box-shadow: 0 0 40px rgba(117, 117, 117, 0.671);
+    overflow: hidden;
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-body {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.blog-head{
+    padding: 20px 23px 0;
+    background-color: white;
+}
+.blog-head h2 {
+    font-size: 19px;
+}
+.blog-head span {
+    display: block;
+    font-size: 12px;
+    padding: 15px 0;
+}
+.blog-head div {
+    height: 2px;
+    width: 30%;
+}
+.blog-head p {
+    font-size: 15px;
+    color: gray;
+    padding: 19px 0 8px;
+    text-align: start;
+}
+.blog-head a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.blog-head hr {
+    margin: 0;
+}
+.blog-head hr:first-of-type{
+    height: 1px;
+    width: 30%;
+}
+#arrow, #arrow1, #arrow2 {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.blog-icon {
+    font-size: 17px;
+    background-color: black;
+}
+.blog-icon a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 22px 10px 0px 16px;
+}
+.blog-icon a:last-of-type{
+    padding-bottom: 22px;
+}
+.blog:hover hr:first-of-type{
+    width: 100%;
+    transition: all 0.4s linear;
+}
+.blog:hover .blog-icon  {
+    transition: all 0.4s linear;
+}
+.blog:hover img {
+    transform: scale(1.15,1.15) rotate(-6deg);
+    transition: all 0.4s linear;
+}
+#arrow-link:hover #arrow,
+#arrow1-link:hover #arrow1,
+#arrow2-link:hover #arrow2 {
+    transform: translateX(10px);
+    transition: all 0.4s linear;
+}
+.OurClients {
+    margin-top: 120px;
+    position: relative;
+}
+.OurClients h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+   
+}
+.brand div div {
+    padding: 25px 0;
+    outline: 1px solid gray;
+    outline-offset: -15px;
+}
+.brand .row {
+    justify-content: space-around;
+}
+.brand img {
+    display: block;
+    margin: auto;
+}
+.gide {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.call {
+    color:white;
+    margin-top: 51px;
+    padding: 55px
+}
+.call h2 {
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.call button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    margin-top: 5.5rem;
+    display: block;
+    margin:auto;
+    /* float:right */
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0 0 30px 0;
+}
+.footer hr {
+    width: 70px;
+    height: 2px;
+    margin: 20px 0 30px 0;
+}
+.footer  h3 {
+    font-size: 15.5px;
+}
+.foot1 h2, .foot2 h2, .foot3 h2{
+    font-size: 35px;
+    margin: 35px 0 0 0;
+    padding-bottom: 0px;
+}
+.foot1 span{
+    margin-right: 15px;
+}
+.foot2 p {
+    font-size: 18px;
+}
+.foot2 span {
+    font-size: 10px;
+    color:gray
+}
+#hr-f2 {
+    background-color: gray;
+    width: 100%;
+    margin: 21px 0;
+}
+.foot2 img {
+    width: 80px;
+    margin-right: 20px;
+}
+.foot3 button {
+    height: 30px;
+    width: 100px;
+    border:0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: white;
+    color:black;
+    margin:0 15px 15px 0;
+    font-size: 13px;
+
+}
+.foot3 button:hover {
+    color: white;
+    transition: all 0.3s ease;
+} 
+.foot2 img:hover {
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    
+}
+
+@media (min-width:990px) and (max-width: 1330px) {
+    .list p {font-size: 2rem;}
+}
+
+@media (max-width: 991px) {
+    .con-med {
+        position: static;
+        display: block;
+        margin:60px auto 30px;
+        width: 465px;
+    }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.loading-overlay {
+    background-color: #ff784b;
+    color:white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+.loading-overlay h2{
+    text-align: center;
+    margin-top:100px;
+    font-size: 100px;
+    color: #000;
+}
+.spinner {
+    margin: 100px auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+  }
+  
+  .dot1, .dot2 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+  .scroll {
+      position: fixed;
+      bottom: 0px;
+      right: 15px;
+      z-index: 999;
+      margin-bottom: -10rem;
+  }
+.scroll span{
+    font-size: 22rem;
+    cursor: pointer;
+}
+#scroll-top{
+    display: none;
+    transition: all 0.5s linear;
+}
+#scroll-top:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.3s ease;
+}
+.contact-form {
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.layo {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6) 85% , rgba(5, 5, 5, 0.8) 85%, rgba(0, 0, 0, 0.8) );
+    text-align: center;
+}
+.layo h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding-top: 139px;
+    letter-spacing: 15px;
+}
+
+.linkat span {
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    padding: 219px 10px 0 10px;
+}
+.linkat span:last-child {
+    color: gray;
+}
+.conta h3 {
+    font-size: 45px;
+    padding: 100px 0 60px 0;
+}
+.info {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.info div {
+    margin-bottom: 20px;
+}
+.info span {
+    font-size: 45px;
+}
+.info h3 {
+    font-size: 17px;
+    color:black;
+    padding: 5px 0 10px 0;
+}
+
+.info2 span {
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    color:black;
+}
+.info2 input {
+    border: 1px solid;
+    outline: 0px;
+    width: 90%;
+    margin-bottom: 5px;
+    padding:20px;
+    font-size: 18px;
+}
+.info2 textarea {
+    border:0;
+    outline: 0;
+    width: 90%;
+    height: 200px;
+    font-size: 18px;
+}
+.d-d div {
+width: 100%;
+margin-bottom: 36px
+}
+.DD{
+    position: relative;
+}
+#d-up {
+    position: relative;
+    top:-185px;
+    left:0
+}
+::placeholder {
+    padding-left:10px;
+    font-size: 14px;
+}
+.get-in {
+    font-size: 45px;
+    margin: 60px 0 60px 0;
+}
+.Conta h3 {
+    font-size: 45px;
+    padding-bottom: 100px;
+}
+.send {
+    width: 160px;
+    height: 41px !important;
+    color: white !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    border: 0;
+    outline: 0;
+
+}
+small{
+    font-size: 15px !important;
+    padding-left: 25px;
+}

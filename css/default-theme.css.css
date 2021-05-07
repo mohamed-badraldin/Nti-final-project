@@ -1,0 +1,54 @@
+.carousel-indicators li:hover,
+.top-bar,
+.headline span,
+.aboutus button,
+.win-slid button,
+.win-slid button,
+.top-line span,
+.view-mov,
+.team .card-icons,
+.price button,
+#pr-hr,
+.Subscribe button,
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.blog-head div,
+.blog-head hr:first-of-type,
+.blog:hover .blog-icon,
+.call,
+.footer hr,
+.foot3 button:hover,  
+#pr-hr,
+.dropdown-item:hover, .dropdown-item:focus,
+.send {
+    background-color: #ff784b;
+}
+
+.menu-links a:hover,
+.team span,
+.price h2 span,
+#pr-s,
+.Control-med span,
+#arrow-link:hover #arrow,
+#arrow1-link:hover #arrow1,
+#arrow2-link:hover #arrow2,
+.call button,
+.Control-med span,
+.num a,
+.price .row div:nth-of-type(2) button,
+.med span,
+.scroll span,
+.info span   {
+    color: #ff784b;
+}
+
+.price .row div:nth-of-type(2) button
+  {
+    border: 1px solid #ff784b;
+}
+.brand-image {
+    background-image: url(../images/logo-5.png);
+}
+.d-d div {
+    border-bottom: 1px solid #ff784b;
+}
